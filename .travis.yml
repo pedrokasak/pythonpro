@@ -11,7 +11,7 @@ env:
   - PIPENV_IGNORE_VIRTUALENVS=1
 
 install: 
-  - pip install pipenv
+  - pip install pipenv -y
   - pipenv sync -d
 
 scripts:
