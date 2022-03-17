@@ -10,7 +10,8 @@ install:
 
 script:
   - pytest --cov
-  - pipenv run pytest
+  - pipenv run pytest --cov=pypro
+  - cp contrib/env-sample .env
 
 after_success:
-  - codecov
+  - pipenv run codecov
