@@ -5,13 +5,20 @@ sudo: true
 python:
   - 3.10
 
+env:
+  global:
+    - PIPENV_VENV_IN_PROJECT=1
+    - PIPENV_IGNORE_VIRTUALENVS=1
+
 services:
   postgresql
 
 addons:
   postgresql: '9.5'
 
-install: 
+install:
+  - pip install pipenv
+  - pipenv sync -d
   - pip install -r requirements.txt codecov
 
 before_script:
