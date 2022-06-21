@@ -1,14 +1,13 @@
 # pythonpro
 
-Projeto do curso Python Pro do Renzo Nuccitelli
-aplicação disponivel em https://pythonprocourse.herokuapp.com/
-<br>
-*** Para instalar o projeto você deve fazer o git clone 
-<br>
-** após baixar o projeto, abrir o projeto na sua IDE de preferência
-<br>
-** Abrir o terminal:
-<br>
+## Projeto do curso Python Pro do Renzo Nuccitelli
+#### aplicação disponivel em https://pythonprocourse.herokuapp.com/
+
+### Para instalar o projeto você deve fazer o git clone 
+
+### após baixar o projeto, abrir o projeto na sua IDE de preferência
+
+### Abrir o terminal:
 * python3 -m venv .venv
 * source .venv/bin/activate
 * pip install -r requirements.txt
