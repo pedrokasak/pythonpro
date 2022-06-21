@@ -29,6 +29,9 @@ pytest-django = "*"
 codecov = "==2.1.12"
 coverage = "==6.4.1"
 dj-config-url = "==0.1.1"
+psycopg2-binary = "*"
+django-s3-folder-storage = "*"
+collectfast = "*"
 
 [dev-packages]
 flake8 = "*"
