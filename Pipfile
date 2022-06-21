@@ -24,6 +24,7 @@ toml = "==0.10.2"
 tzdata = "==2021.5"
 pytest-cov = "==3.0.0"
 python-decouple = "*"
+dj-database-url = "*"
 
 [dev-packages]
 flake8 = "*"
