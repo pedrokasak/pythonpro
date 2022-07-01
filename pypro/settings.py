@@ -19,6 +19,8 @@ DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())  # ['*']
 
+AUTH_USER_MODEL = 'core.User'
+
 # Application definition
 
 INSTALLED_APPS = [

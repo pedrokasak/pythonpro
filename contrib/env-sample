@@ -1,6 +1,6 @@
 DEBUG=True
 SECRET_KEY='lkfjsdfjksndkfjskfbfkbfdjksbf'
-ALLOWED_HOSTS= localhost, 127.0.0.1
+ALLOWED_HOSTS= localhost, 127.0.0.1, https://pythonprocourse.herokuapp.com/
 DATABASES_URL=postgres://postgres:postgres@localhost/testdb
 
 AWS_ACCESS_KEY_ID=
