@@ -7,6 +7,7 @@ import dj_database_url
 from decouple import config, Csv
 import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
+from waitress import serve
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -66,6 +67,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'pypro.wsgi.application'
+serve(WSGI_APPLICATION)
 
 # Configuration Django debug toolbar
 INTERNAL_IPS = config('INTERNAL_IPS', cast=Csv(), default='127.0.0.1')
